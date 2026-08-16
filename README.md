@@ -98,7 +98,6 @@ local Player = game:GetService("Players").LocalPlayer
 
 local MainTab = window:AddTab("Main")
 local KillingTab = window:AddTab("Killing")
-local GodmodeTab = window:AddTab("Farm soon!")
 MainTab:Show()
 
 local function checkCharacter()
@@ -635,9 +634,6 @@ KillingTab:AddSwitch("Auto Kill Good Karma", function(bool)
         end
     end)
 end)
-
-GodmodeTab:AddLabel("SOON!!!").TextSize = 40
-
 
 local MusicTab = window:AddTab("Music")
 
